@@ -12,5 +12,5 @@ Operación matemática donde:
 
 ## 🎯 ¿Qué hace este proyecto?  
 1. **Divide el trabajo**: Reparte filas de la matriz **A** entre distintos procesadores.  
-2. **Paraleliza el cálculo**: Cada procesador calcula una parte del resultado **C** usando su porción de **A** y toda la matriz **B**.  
+2. **Paraleliza el cálculo**: Cada procesador calcula una parte del resultado **C** usando su porción de **A**. 
 3. **Combina resultados**: Reúne todas las partes calculadas para formar la matriz final **C**.  
