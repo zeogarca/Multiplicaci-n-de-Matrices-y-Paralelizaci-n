@@ -7,8 +7,8 @@ Paralelización Sencilla
       Cada procesador calcula un grupo de filas del resultado.
       Todos necesitan acceso a toda la matriz B
 
-* 2.2. Pasos B´asicos
+* 2.2. Pasos Básicos
     1. Repartir filas de A entre los procesadores
     2. Enviar copia de B a todos
     3. Cada uno calcula sus filas de C
-  4. Reunir todos los resultados
+   4. Reunir todos los resultados
