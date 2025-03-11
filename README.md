@@ -1,7 +1,13 @@
-# Multiplicación de Matrices en Paralelo  
+# Multiplicación de Matrices en Paralelo  y MAtrices de Rotación
 
 **Objetivo General:**  
 Crear un programa paralelizado que multiplique matrices grandes de manera eficiente, distribuyendo el trabajo entre múltiples procesadores usando MPI.  
+
+**Hacer**
+Saber como haxcer las operaciones para no copiar toda la matriz en cada proceso.
+Tener el algoritmo listo para una matriz pequeña para el siguiente mes.
+Posiblemente traducir una imagen a una matriz numerica, y después pasarla por una matriz de rotacion
+
 
 ## 📖 ¿Qué es la multiplicación de matrices?  
 Operación matemática donde:  
