@@ -1,14 +1,16 @@
-# Multiplicación de Matrices y Paralelización
+# Multiplicación de Matrices en Paralelo  
 
-Paralelización Sencilla
+**Objetivo General:**  
+Crear un programa paralelizado que multiplique matrices grandes de manera eficiente, distribuyendo el trabajo entre múltiples procesadores usando MPI.  
 
-* 2.1. Idea Principal
-    * Dividir el trabajo entre varios procesadores:
-      Cada procesador calcula un grupo de filas del resultado.
-      Todos necesitan acceso a toda la matriz B
+## 📖 ¿Qué es la multiplicación de matrices?  
+Operación matemática donde:  
+- Se toma una matriz **A** (de tamaño N×M)  
+- Se multiplica por una matriz **B** (de tamaño M×P)  
+- El resultado es una matriz **C** (de tamaño N×P)  
+- Cada elemento de **C** se calcula sumando productos de filas de **A** y columnas de **B**  
 
-* 2.2. Pasos Básicos
-    1. Repartir filas de A entre los procesadores
-    2. Enviar copia de B a todos
-    3. Cada uno calcula sus filas de C
-   4. Reunir todos los resultados
+## 🎯 ¿Qué hace este proyecto?  
+1. **Divide el trabajo**: Reparte filas de la matriz **A** entre distintos procesadores.  
+2. **Paraleliza el cálculo**: Cada procesador calcula una parte del resultado **C** usando su porción de **A** y toda la matriz **B**.  
+3. **Combina resultados**: Reúne todas las partes calculadas para formar la matriz final **C**.  
